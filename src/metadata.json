@@ -12,7 +12,7 @@
         "Id": "maximize-app",
         "Version": "1.0",
         "License": "GPLv3",
-        "Website": "https://almaceleste.github.io"
+        "Website": "https://github.com/almaceleste/kwin-maximize-app"
     },
     "X-Plasma-API": "javascript",
     "X-Plasma-MainScript": "code/main.js",
