@@ -1,7 +1,8 @@
 #!/bin/bash
 
-name="$(basename `git rev-parse --show-toplevel` | sed -r 's/^kwin-//g').kwinscript"
+dir="$(git rev-parse --show-toplevel)"
+name=$(basename "$dir" | sed -r 's/^kwin-//g').kwinscript
 
-rm $name
-cd ./src
-zip -r ../$name *
+rm "$dir/$name"
+cd "$dir/src"
+zip -r "$dir/$name" *
