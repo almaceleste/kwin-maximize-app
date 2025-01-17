@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Name": "Maximize all the app",
+        "Description": "Maximize all windows of the current application",
+        "Icon": "preferences-system-windows",
+        "Authors": [
+            {
+                "Email": "pcaptanovska@gmail.com",
+                "Name": "almaceleste"
+            }
+        ],
+        "Id": "maximize-app",
+        "Version": "1.0",
+        "License": "GPLv3",
+        "Website": "https://almaceleste.github.io"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
